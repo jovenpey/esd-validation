@@ -1,9 +1,7 @@
+from text import in_file, in_lib, in_oas_file
 import glob 
 import os.path 
 import re 
-import subprocess
-
-from text import in_file, in_lib, in_oas_file
 
 print(in_file)
 print(in_lib)
